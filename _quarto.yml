@@ -1,23 +1,25 @@
 project:
   type: website
-  output-dir: docs
+  # output-dir: docs
 
 website:
-  title: "maniacalwhistle"
   navbar:
-    title: false
+    search: true
     collapse: false
     background: "#f7eee1"
     foreground: "#1a029e"
     left:
       - href: index.qmd
         text: home
-      - href: code_stuff.qmd
-        text: code?
+      - href: projects.qmd
+        text: projects
     right:
       - icon: github
         text: maniacalwhistle
         href: https://github.com/maniacalwhistle
+      - icon: camera
+        text: photos
+        href: https://maniacalwhistle.github.io/foto.maniacalwhistle.us
 
 format:
   html:

@@ -1,5 +1,0 @@
----
-title: "code?"
----
-
-[compost](compost.qmd)
